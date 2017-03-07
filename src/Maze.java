@@ -14,8 +14,8 @@ public class Maze {
     int startCol;
     int exitRow;
     int exitCol;
-    char cell = new cell(row, col);
-    //char[] lines;
+    char[][] cell;
+    cell = new char[row][col];
 
 
     public Maze (File filename){
@@ -85,7 +85,7 @@ public class Maze {
     }
 
     public String toString(){
-        String maze = char[] lines;
+        String maze = lines;
         return maze;
     }
 }

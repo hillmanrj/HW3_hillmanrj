@@ -1,6 +1,3 @@
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.Scanner;
 
 /**
  * Created by hillmanrj on 2/28/2017.
@@ -8,7 +5,7 @@ import java.util.Scanner;
 public class Robot {
 
     public Robot (Maze maze){
-
+        Robot robot;
 
     }
 
